@@ -5,3 +5,4 @@ class BaseProcessor(ABC):
     def process(self, payload):
         pass
 
+print("hello")
