@@ -4,3 +4,4 @@ class BaseProcessor(ABC):
     @abstractmethod
     def process(self, payload):
         pass
+print("hello")
