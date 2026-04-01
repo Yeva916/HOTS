@@ -5,3 +5,4 @@ class DataProcessor(BaseProcessor):
     def process(self, payload):
         clean_data = format_data(payload)
         return {"status": "success", "result": clean_data}
+print('hello')
