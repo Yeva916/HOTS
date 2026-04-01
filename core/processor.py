@@ -6,3 +6,4 @@ class DataProcessor(BaseProcessor):
         clean_data = format_data(payload)
         return {"status": "success", "result": clean_data}
 print('hello')
+print('hi')
